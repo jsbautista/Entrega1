@@ -1,54 +1,116 @@
 <!doctype html>
 <html>
 
-    <head>
-        <meta charset="UTF-8">
-        <title>201712134</title>
-    </head>  
+<head>
+    <meta charset="UTF-8">
+    <title>201712134</title>
+</head>
 
-    <body>
-        <header id="encabezado">
-            <h1>JUAN SEBASTIAN BAUTISTA ROJAS</h1>
-            <img src="Foto.png" width="150" height="150" alt="Foto Sebastian y Valentina">
-        </header>
-        <nav>
-            <ul>
-                <li><a href="#encabezado">Encabezado</a></li>
-                <li><a href="#principal">Sobre mi</a></li>
-                <li><a href="#piePagina">Contacto</a></li>
-            </ul>
-        </nav>
-        <main id="principal">
-          <p>En este primer proyecto les mostrare de mi. Con diferentes tipo de presentaciones como tablas, listas y enlaces</p>
-          <h2>Información importante</h2>
-          <table>
+<body>
+    <header id="encabezado">
+        <h1>JUAN SEBASTIAN BAUTISTA ROJAS</h1>
+        <img src="Foto.png" width="300" height="250" alt="Foto Sebastian y Valentina">
+    </header>
+    <nav>
+        <h2>Tabla de contenido</h2>
+        <ul>
+            <li><a href="#principal">Sobre mi</a>
+                <ul>
+                    <li><a href="#InfoBibliografica">Informacion Bibliografica</a></li>
+                    <li><a href="#InfoAcademica">Informacion Academica</a></li>
+                    <li><a href="#sitiosInteres">Sitios de Interes</a></li>
+                    <li><a href="#FormContacto">Formulario de contacto</a></li>
+                </ul>
+            </li>
+            <li><a href="#piePagina">Contacto</a></li>
+        </ul>
+    </nav>
+    <main id="principal">
+        <p>Bienvenidos, en este primer proyecto les mostrare un poco de mi. Con diferentes tipo de presentaciones como tablas, listas y
+            enlaces</p>
+        <h2>Información importante</h2>
+        <section id="InfoBibliografica">
+            <h3>Información bibliografica</h3>
+            <table border="1">
 
-            <tr>
-          
-              <th>Celda 1</th>
-          
-              <th>Celda 2</th>
-          
-              <th>Celda 3</th>
-          
-            </tr>
-          
-            <tr>
-          
-              <td>Celda 4</td>
-          
-              <td>Celda 5</td>
-          
-              <td>Celda 6</td>
-          
-            </tr>
-          
-          </table>
+                <tr>
 
-        </main>
-        <footer id="piePagina">
-        <p>Un pie de pagina mas interesante</p>
-        </footer>
-    </body>
+                    <th>Fecha nacimiento</th>
+
+                    <th>Año graduacion bachillerato</th>
+
+                    <th>Año ingreso a la universidad</th>
+
+                    <th>Programa</th>
+
+                    <th>Semestre</th>
+                </tr>
+
+                <tr>
+
+                    <td>2000</td>
+
+                    <td>2016</td>
+
+                    <td>2017</td>
+
+                    <td>Ing. sistemas y computación</td>
+
+                    <td>7</td>
+
+                </tr>
+
+            </table>
+        </section>
+        <section id="InfoAcademica">
+            <h3>Informacion academica</h3>
+            <ol>
+                <li><b>Primaria y bachillerato: </b>Colegio Celestin Freinet</li>
+                <li><b>Pregrado: </b>Universidad de los Andes</li>
+            </ol>
+        </section>
+        <section id="sitiosInteres">
+            <h3>Sitios de interes</h3>
+            <p>En esta oportunidad les presento de las cosas que me interesan ver cuando navego por la web como noticias deportivas.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Bn8-MemEpHk">
+            </iframe>
+            <h3>Enlaces</h3>
+            <p>Noticias de la actualidad en Deportes <a href="https://colombia.as.com/">diario As</a></p>
+            <p>Enlace a pagina web del mejor equipo del mundo <a href="https://www.fcbarcelona.es/es/">Aqui!</a></p>
+            
+            <h3>Imágenes</h3>
+            <img src="https://www.infobae.com/new-resizer/DcqjjVGTFYejtOwRTSlDityOtUA=/999x561/filters:quality(100)/cloudfront-us-east-1.images.arcpublishing.com/infobae/PXSIJE4NNJGD5CO6YS67K5MRCI.jpg" width="300" height="200">
+            <img src="https://www.dw.com/image/54576488_302.jpg" width="300" height="200">
+        </section>
+        <section id="FormContacto">
+            <h3>Formulario para contacto</h3>
+            <form>
+                <ul>
+                    <li>
+                        <label>Nombre:</label>
+                        <input>
+                    </li>
+                    <li>
+                        <label>Correo electrónico:</label>
+                        <input>
+                        <label>@uniandes.edu.co</label>
+                    </li>
+                    <li>
+                        <label>Mensaje:</label>
+                        <textarea>Cualquier recomendacion</textarea>
+                    </li>
+                </ul>
+            </form>
+        </section>
+
+    </main>
+    <footer id="piePagina">
+        <p>Datos de contacto y redes sociales: <a
+                href="https://www.facebook.com/juansebastian.bautistarojas.3/">Facebook</a>, <a
+                href="https://www.instagram.com/juanse_1803/">Instagram</a> y Correo electronico:
+            js.bautista@uniandes.edu.co</p>
+
+    </footer>
+</body>
 
 </html>
